@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MJ Atkinson</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+<!-- //cursor spotlight effect js -->
+    <div class="spotlight"></div>
+
+<!-- //nav bar -->
+    <header>
+      <nav>
+        <span class="nav-logo">MJ Atkinson</span>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          </button>
+      </nav>
+    </header>
+
+<!-- //hero section -->
+    <section id="hero">
+      <p class="hero-greeting">Hi, my name is</p>
+      <h1>MJ Atkinson.</h1>
+      <h2>I build things for the web & mobile.</h2>
+      <p class="hero-bio">
+        I'm a jnr developer based in Windhoek, Namibia, specialising in 
+        building websites, web apps, and mobile applications.
+      </p>
+      <a href="#projects" class="btn">See My Work</a>
+    </section>
+
+<!-- //about section -->
+    <section id="about">
+      <h3 class="section-title"><span>01.</span> About Me</h3>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hi, I'm MJ Atkinson, a developer based in Windhoek, Namibia. I currently work in networking and security while 
+            studying towards a BSc in Computer Science with Software Engineering at the Namibia University of Science and Technology (NUST).
+
+          <p> Growing up playing video games sparked a curiosity for how technology works — and that curiosity never left.
+            Today I channel it into building websites and mobile apps that are practical, clean, and built around real 
+            people's needs. My goal is simple: to use technology to make everyday life a little easier for the people around me.</p>
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="profile.jpeg" alt="MJ Atkinson" class="profile-img" />
+        </div>
+      </div>
+    </section>
+
+<!-- //projects section -->
+<section id="projects">
+  <h3 class="section-title"><span>02.</span> Projects</h3>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="studentcard.gif" alt="StudentVirtualCard demo" class="project-gif" />
+      <div class="project-top">
+        <span class="folder-icon">&#128193;</span>
+        <div class="project-links">
+          <a href="https://github.com/mjatkinson2003-star/StudentVirtualCard" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <h4>StudentVirtualCard</h4>
+      <p>A .NET MAUI mobile app that digitises the NUST student card with a real scannable barcode and tap-to-flip animation.</p>
+      <ul class="tech-list">
+        <li>C#</li>
+        <li>.NET MAUI</li>
+        <li>Android</li>
+        <li>iOS</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <div class="project-top">
+        <span class="folder-icon">&#128193;</span>
+        <div class="project-links">
+          <a href="https://thecrust.netlify.app" target="_blank">Live ↗</a>
+        </div>
+      </div>
+      <h4>The Crust</h4>
+      <p>A website for a homemade frozen pie business in Windhoek featuring a menu, shopping basket, calendar booking, and automated WhatsApp ordering.</p>
+      <ul class="tech-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- //services section -->
+    <section id="services">
+      <h3 class="section-title"><span>03.</span> What I Do</h3>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <span class="service-icon">&#127758;</span>
+          <h4>Web Development</h4>
+          <p>Clean, responsive websites and web apps built from scratch — from landing pages to full-featured sites.</p>
+        </div>
+
+        <div class="service-card">
+          <span class="service-icon">&#128242;</span>
+          <h4>Mobile Apps</h4>
+          <p>Small, practical mobile apps for Android and iOS using .NET MAUI and modern cross-platform tools.</p>
+        </div>
+
+        <div class="service-card">
+          <span class="service-icon">&#128187;</span>
+          <h4>Custom Software</h4>
+          <p>Tailor-made software solutions built around your specific needs — no bloat, just what you actually need.</p>
+        </div>
+
+      </div>
+    </section>
+
+<!-- //skills section -->
+    <section id="skills">
+      <h3 class="section-title"><span>04.</span> Skills</h3>
+      <ul class="skills-list">
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>.NET MAUI</li>
+        <li>C (Programming)</li>
+        <li>Git & GitHub</li>
+        <li>Android Studio</li>
+        <li>Xcode</li>
+      </ul>
+    </section>
+
+<!-- //contact section -->
+    <section id="contact">
+      <h3 class="section-title"><span>05.</span> Get In Touch</h3>
+      <p>Have a project in mind or want to work together? I'd love to hear from you.</p>
+      <a href="mailto:mjatkinson2003@gmail.com?subject=Project%20Inquiry%20%F0%9F%94%A5&body=Hi%20MJ%2C%0A%0AI%20found%20your%20portfolio%20and%20I%27d%20love%20to%20discuss%20a%20project%20with%20you.%0A%0A" class="btn">
+        Say Hello</a>
+    </section>
+
+<!-- //footer -->
+    <footer>
+      <p>Designed & Built by MJ Atkinson</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
