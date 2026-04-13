@@ -361,7 +361,7 @@ footer {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  object-position: top;
+  object-position: center top;
   border: 2px solid var(--accent);
   border-radius: 4px;
 }
